@@ -20,7 +20,7 @@ public class Main {
         System.out.println();
         System.out.println(" Задача № 4 ");
         System.out.println();
-        for (int i = -10; i < 10; i = i + 1) {
+        for (int i = -10; i < 11; i = i + 1) {
             System.out.println(" Итирация цикла " + i);
         }
         System.out.println();
@@ -60,17 +60,15 @@ public class Main {
         int salary = 29000;
         int total = 0;
         for (int i = 1; i < 12; i = i + 1) {
-            total = total + total / 100;
             total = total + salary;
+            total = total + total / 100;
             System.out.println(" Месяц " + i + " , сумма накоплений равна " + total + " рублей ");
         }
         System.out.println();
         System.out.println(" Задача № 10 ");
         System.out.println();
-        int number = 0;
-        for (int i = 2; i < 21; i = i + 2) {
-            number = number + 1;
-            System.out.println(" 2 * " + number + " = " + i);
+        for (int i = 1; i < 11; i = i +1) {
+            System.out.println(" 2 * " + i + " = " + i * 2);
         }
     }
 }
